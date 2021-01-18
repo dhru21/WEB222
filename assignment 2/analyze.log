@@ -1,0 +1,31 @@
+
+> web222-assignment-2@2.1.0 analyze /Users/dhruv/Desktop/SEM2/WEB222/a2-v2
+> node src/analyze
+
+Loading data...
+Analyzing data...
+Using all case data
+
+Summary
+--------------------------
+Unknown 0 (0.00%)
+19 and younger 0 (0.00%)
+20 to 29 Years 0 (0.00%)
+30 to 39 Years 0 (0.00%)
+40 to 49 Years 0 (0.00%)
+50 to 59 Years 0 (0.00%)
+60 to 69 Years 0 (0.00%)
+70 to 79 Years 0 (0.00%)
+80 to 89 Years 0 (0.00%)
+90 and older 0 (0.00%)
+50 to 59 Years 2,720 (15.22%)
+20 to 29 Years 3,049 (17.06%)
+60 to 69 Years 1,813 (10.14%)
+80 to 89 Years 1,557 (8.71%)
+70 to 79 Years 1,133 (6.34%)
+30 to 39 Years 2,724 (15.24%)
+40 to 49 Years 2,416 (13.52%)
+19 and younger 1,311 (7.34%)
+null 0 (NaN%)
+90 and older 1,116 (6.24%)
+--------------------------
