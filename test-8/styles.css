@@ -1,0 +1,55 @@
+/* 
+
+  NAME: Dhruv Bipinbhai Patel
+  STUDENT ID: 142572197
+
+  Your CSS goes here.  Remember to include comments. 
+
+*/
+
+/*Changes the color, font-style and alignment of h1 tag */
+h1 {
+  color: rgb(219, 216, 189);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 40%;
+}
+
+/*Changes the color, font-style and alignment of content of p element */
+p {
+  color: rgb(219, 216, 189);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+/*Changes the color, font-style and alignment of h2 tag */
+h2 {
+  color: rgb(219, 216, 189);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  margin-left: auto;
+  width: 60%;
+}
+
+/*Changes the styling properties of text-wrapper id and creates a section for the left side of the webpage*/
+#text-wrapper {
+  position: absolute;
+  background: rgb(10, 32, 39);
+  left: 0px;
+  height: 100%;
+  width: 50%;
+}
+
+/*Changes the properties of image element and adds image to the right section of the webpage */
+#image {
+  background-image: url(markus-spiske-NsyU41QcsxM-unsplash.jpg);
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  width: 50%;
+}
