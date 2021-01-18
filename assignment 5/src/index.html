@@ -1,0 +1,126 @@
+<!--
+  Name: Dhruv Bipinbhai Patel
+  Student#: 142572197
+  Email: dbpatel31@myseneca.ca
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>WEB222 Store</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="contact">
+        <a href="contact.html"><h1>Contact Us!</h1></a>
+      </div>
+      <div class="nav-logo">
+        <a href="#home"
+          ><h1>D<span>SHOP</span></h1></a
+        >
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- poster-->
+    <header class="hero" id="home">
+      <div class="banner">
+        <h1 class="banner-title">The D Store</h1>
+        <a href="#categorylist"><button class="banner-btn">Shop now</button></a>
+      </div>
+    </header>
+    <!-- end of poster-->
+
+    <div id="categorylist">
+      <h1>OUR CATEGORY</h1>
+      <button class="btn active" onclick="filterSelection('all')">Show all</button>
+      <button class="btn" onclick="filterSelection('featured_f')">Featured</button>
+      <button class="btn" onclick="filterSelection('men_f')">Men</button>
+      <button class="btn" onclick="filterSelection('women_f')">Women</button>
+    </div>
+    <div class="allcategory"></div>
+
+    <!-- products -->
+    <section class="products">
+      <div class="section-title">
+        <h2>Our Featured Products</h2>
+      </div>
+      <div class="products-center"></div>
+    </section>
+
+    <section class="mens">
+      <div class="section-title">
+        <h2>Men</h2>
+      </div>
+      <div class="products-men"></div>
+    </section>
+
+    <section class="womens">
+      <div class="section-title">
+        <h2>Women</h2>
+      </div>
+      <div class="products-women"></div>
+    </section>
+    <!-- end of products -->
+
+    <!--Newsletter-->
+    <section class="news" id="news">
+      <h2>Subscribe to Our Newsletter!</h2>
+
+      <form action="https://formspree.io/f/mknpqodp" method="POST">
+        <label for="email">Please enter your email:</label>
+        <input
+          id="email"
+          name="emailId"
+          autocomplete="email"
+          type="email"
+          placeholder="Enter email"
+          tabindex="1"
+        />
+        <div class="nbutton">
+          <input type="submit" name="subscribe" value="Subscribe!" tabindex="2" />
+        </div>
+      </form>
+    </section>
+    <!-- end of newsletter -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <div id="subs">
+          <a href="#news"><h3>Subscribe to Our Newsletter!</h3></a>
+        </div>
+        <div id="reg">
+          <p>
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            DSHOP. All Rights Reserved.
+          </p>
+        </div>
+        <div id="icon">
+          <p>
+            <a href="#"><img src="images/facebook.png"/></a
+            ><a href="#"><img src="images/linkedin.png"/></a
+            ><a href="#"><img src="images/twitter.png"/></a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <script type="text/javascript" language="javascript" src="products.json"></script>
+    <!-- java script -->
+    <script src="script.js"></script>
+  </body>
+</html>

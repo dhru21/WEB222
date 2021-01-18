@@ -1,0 +1,149 @@
+/* Add any JavaScript you need to this file.
+ *
+ *   Name: Dhruv Bipinbhai Patel
+ *   Student#: 142572197
+ *   Email: dbpatel31@myseneca.ca
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/* --------------- Navbar ---------------- */
+.navbar {
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  height: auto;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  z-index: 1;
+}
+
+.contact h1 {
+  padding: 12px;
+  font-size: 1.5rem;
+  color: #ecccad;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.contact h1:hover {
+  color: #ddd;
+}
+
+.contact-logo h1 {
+  margin-left: 35%;
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgb(163, 156, 156);
+}
+
+.contact-logo h1 span {
+  color: rgb(214, 164, 121);
+}
+
+/* --------------- End of Navbar ---------------- */
+
+form {
+  margin: 1em;
+  padding: 1em;
+  border: 2px solid #e68e36;
+  border-radius: 15px;
+  max-width: 900px;
+  min-width: 500px;
+  min-height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+
+  align-items: center;
+}
+
+form label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  color: rgb(0, 0, 0);
+}
+
+.row select {
+  margin: 0.4em;
+  font-size: 1.3em;
+  border: 2px solid;
+  border-radius: 15px;
+  border-color: #e68e36;
+}
+.row input[type='radio']:checked + label {
+  color: #e68e36;
+}
+
+.form-check-label:hover {
+  color: #e0984f;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+}
+
+input[type='radio']:hover,
+input[type='radio']:focus {
+  background-color: #e68e36;
+  cursor: pointer;
+}
+
+#description {
+  margin: 5px;
+  padding: 0.4em;
+  font-size: 1.2em;
+  border: 2px solid;
+  border-radius: 15px;
+  border-color: #e68e36;
+}
+
+form input[type] {
+  margin: 0.4em;
+  padding: 0.4em;
+  font-size: 1.2em;
+  border: 2px solid;
+  border-color: #e68e36;
+  border-radius: 15px;
+}
+
+input[type='submit']:hover,
+input[type='submit']:focus,
+input[type='reset']:hover,
+input[type='reset']:focus {
+  background-color: #e0984f;
+  cursor: pointer;
+}
+
+input[type='submit'],
+input[type='reset'] {
+  margin: 10px;
+  width: 170px;
+  background-color: #e68e36;
+}
+
+/* ----------- Footer -------- */
+footer {
+  position: sticky;
+  bottom: 0px;
+  background: #000;
+}
+.footer {
+  width: 100%;
+  height: 120px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+.footer p {
+  text-align: center;
+  color: #fff;
+  padding: 5px 0;
+}
+.footer p a {
+  margin: 0 5px;
+}
+/* --------- End Footer ------ */

@@ -1,0 +1,387 @@
+/* Add any CSS you need to this file.
+*
+ *   Name: Dhruv Bipinbhai Patel
+ *   Student#: 142572197
+ *   Email: dbpatel31@myseneca.ca
+ */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: black;
+  background: white;
+  font-family: 'Lato', sans-serif;
+}
+
+/* --------------- Navbar ---------------- */
+.navbar {
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  height: auto;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  z-index: 1;
+}
+
+.contact h1 {
+  padding: 12px;
+  font-size: 1.5rem;
+  color: #ecccad;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.contact h1:hover,
+.nav-logo h1:hover {
+  color: #ddd;
+}
+
+.nav-logo h1,
+.contact-logo h1 {
+  margin-left: 35%;
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgb(163, 156, 156);
+}
+
+.nav-logo a {
+  text-decoration: none;
+  color: rgb(163, 156, 156);
+}
+
+.nav-logo h1 span,
+.contact-logo h1 span {
+  color: rgb(214, 164, 121);
+}
+
+/* --------------- End of Navbar ---------------- */
+
+/* --------------- Hero ---------------- */
+.hero {
+  min-height: calc(100vh - 60px);
+  background: url('./images/main.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  padding: 2rem;
+}
+.banner-title {
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-bottom: 3rem;
+}
+.banner-btn {
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  background: #f09d51;
+  color: rgb(0, 0, 0);
+  border: 1px solid #f09d51;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.banner-btn a {
+  text-decoration: none;
+  color: inherit;
+}
+.banner-btn:hover {
+  background: transparent;
+  color: #f09d51;
+}
+/* --------------- End of Hero ---------------- */
+
+/* ---------- Category Filter ----------*/
+#categorylist {
+  width: 100%;
+  max-width: 1170px;
+  margin: 10px auto;
+  padding: 2rem 0 2rem;
+  text-align: center;
+}
+#categorylist h1 {
+  margin: 20px 0;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.btn {
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 9px 13px;
+  cursor: pointer;
+  border-radius: 30px;
+  width: 15%;
+  margin-left: auto;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.allcategory {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 2rem;
+}
+/* --------- End Category Filter ---------- */
+
+/* --------------- Products ---------------- */
+.products {
+  padding: 2rem 0 4rem;
+  background: #faf6f5;
+  margin: 2rem 0 0 0;
+}
+.mens {
+  padding: 2rem 0 2rem;
+}
+.womens {
+  padding: 2rem 0 2rem;
+  background: #f8f8f8;
+}
+.section-title h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.products-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 2rem;
+}
+.products-men {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 2rem;
+}
+.products-women {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 2rem;
+}
+.product_f {
+  padding: 8px;
+  float: left;
+  border: 1px solid #999;
+  display: none;
+}
+.show {
+  display: block;
+}
+.featured,
+.men,
+.women {
+  padding: 8px;
+  float: left;
+  border: 1px solid #999;
+}
+.featured:hover,
+.men:hover,
+.women:hover {
+  box-shadow: 1px 1px 5px #333;
+}
+
+.img-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.bag-btn {
+  position: absolute;
+  top: 70%;
+  right: 0;
+  color: #fff;
+  background: black;
+  border: none;
+  text-transform: uppercase;
+  padding: 0.5rem 0.75rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  transition: all 0.3s linear;
+  transform: translateX(101%);
+  cursor: pointer;
+}
+.bag-btn:hover {
+  color: white;
+}
+
+.img-container:hover .bag-btn {
+  transform: translateX(0);
+}
+.product-img {
+  display: block;
+  width: 100%;
+  transition: all 0.3s linear;
+}
+
+.img-container:hover .product-img {
+  opacity: 0.5;
+}
+.product_f h3 {
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+.product_f h4 {
+  margin-top: 0.7rem;
+  letter-spacing: 0.1rem;
+  color: black;
+  text-align: center;
+}
+.product h3 {
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+.product h4 {
+  margin-top: 0.7rem;
+  letter-spacing: 0.1rem;
+  color: black;
+  text-align: center;
+}
+/* ---------------End of Products ---------------- */
+
+/* --------------- Newsletter ------------*/
+.news {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  padding: 2rem 0 2rem;
+  background-color: rgb(235, 139, 21);
+  font-family: 'Nerko One', cursive;
+}
+
+input[type='email'] {
+  padding: 9px 15px;
+  border-radius: 10px;
+  width: 80%;
+  border: 1px solid #7c7b7b;
+}
+
+input[type='submit']:hover,
+input[type='submit']:focus {
+  background-color: #333;
+  cursor: pointer;
+  color: #ecccad;
+}
+
+input[type='submit'] {
+  height: 40px;
+  padding: 1px;
+  color: white;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  border-radius: 30px;
+  width: 25%;
+  margin-left: auto;
+  font-size: 40%;
+  font-size: 1.7rem;
+  font-family: 'Nerko One', cursive;
+}
+/* ---------------End of newsletter ---------------- */
+
+/* ----------- Footer -------- */
+footer {
+  position: sticky;
+  bottom: 0;
+  background: #000;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-row-gap: 8px;
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 auto;
+  height: 90px;
+}
+
+#reg p {
+  color: #fff;
+  text-align: right;
+  font-size: 20px;
+}
+
+#icon a {
+  margin-left: 13px;
+  text-decoration: none;
+}
+
+#subs h3 {
+  font-size: 20px;
+  margin-left: 15px;
+  color: #ecccad;
+}
+
+#subs h3:hover {
+  color: white;
+}
+
+#subs a {
+  text-decoration: none;
+}
+
+.contact-footer {
+  width: 100%;
+  max-width: 1170px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+.contact-footer p {
+  text-align: center;
+  color: #fff;
+  padding: 5px 0;
+}
+.contact-footer p a {
+  margin: 0 5px;
+}
+/* --------- End Footer ------ */

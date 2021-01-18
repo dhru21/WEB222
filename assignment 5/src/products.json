@@ -1,0 +1,152 @@
+(products = {
+  "featured": [
+    {
+      "name": "Purple dress",
+      "description": "Women purple dress. Pure cotton with perfect design. Available in S/M/L sizes.",
+      "price": "49.99",
+      "imageUrl": "images/featured1.jpg"
+    },
+    {
+      "name": "Shirt",
+      "description": "Olive green shirt for men. Made perfectly to meet your needs.",
+      "price": "39.99",
+      "imageUrl": "images/featured2.jpg"
+    },
+    {
+      "name": "Wrist watch",
+      "description": "Wrist watch. For office/casual wear.",
+      "price": "29.99",
+      "imageUrl": "images/featured3.jpg"
+    },
+    {
+      "name": "Leather purse",
+      "description": "Women leather brown bag.",
+      "price": "59.99",
+      "imageUrl": "images/featured4.jpg"
+    }
+  ],
+  "men": [
+    {
+      "name": "Green jacket",
+      "description": "Green jacket. Designed perfectly to match your outfit.",
+      "price": "69.99",
+      "imageUrl": "images/men1.jpg"
+    },
+    {
+      "name": "Black pants",
+      "description": "Black office wear pant",
+      "price": "19.99",
+      "imageUrl": "images/men2.jpg"
+    },
+    {
+      "name": "Black leather sneakers",
+      "description": "Perfectly crafted black leather sneakers for your needs",
+      "price": "59.99",
+      "imageUrl": "images/men3.jpg"
+    },
+    {
+      "name": "Grey hoodie",
+      "description": "Hoodie to keep you warm. Perfectly design to meet your body type.",
+      "price": "29.99",
+      "imageUrl": "images/men4.jpg"
+    },
+    {
+      "name": "Grey Hoodie",
+      "description": "Water resistant. Perfect for all sort of weather.",
+      "price": "49.99",
+      "imageUrl": "images/men5.jpg"
+    },
+    {
+      "name": "Wrist watch",
+      "description": "Silver watch that suits your outfit",
+      "price": "59.99",
+      "imageUrl": "images/men6.jpg"
+    },
+    {
+      "name": "Black bracelet",
+      "description": "Leather designed bracelet.Perfectly carved with hands.",
+      "price": "19.99",
+      "imageUrl": "images/men7.jpg"
+    },
+    {
+      "name": "Carbon fiber chain",
+      "description": "Black chain made from pure carbon fiber",
+      "price": "49.99",
+      "imageUrl": "images/men8.jpg"
+    },
+    {
+      "name": "Accessory set",
+      "description": "Men accessories set comes with a beautiful wrist watch, sunglasses that protect your eye and a card holder",
+      "price": "59.99",
+      "imageUrl": "images/men9.jpg"
+    },
+    {
+      "name": "Ripped jeans",
+      "description": "Skin-fit jeans",
+      "price": "69.99",
+      "imageUrl": "images/men10.jpg"
+    }
+  ],
+  "women": [
+    {
+      "name": "Ripped jeans",
+      "description": "Over sized ripped jeans. For women who like their clothes baggy",
+      "price": "69.99",
+      "imageUrl": "images/women1.jpg"
+    },
+    {
+      "name": "White pants",
+      "description": "White pants that suits your outfit and fits you perfectly",
+      "price": "29.99",
+      "imageUrl": "images/women2.jpg"
+    },
+    {
+      "name": "Maroon Platted pants",
+      "description": "Maroon platted loose pants that makes you feel comfortable.",
+      "price": "29.99",
+      "imageUrl": "images/women3.jpg"
+    },
+    {
+      "name": "Green top",
+      "description": "Green top made from wool, helps to keep you warm",
+      "price": "39.99",
+      "imageUrl": "images/women4.jpg"
+    },
+    {
+      "name": "Wool hat",
+      "description": "Soft hat crafted with wool. Protects your hair.",
+      "price": "59.99",
+      "imageUrl": "images/women5.jpg"
+    },
+    {
+      "name": "Mickey Tshirt",
+      "description": "Mickey printed tshirt",
+      "price": "29.99",
+      "imageUrl": "images/women6.jpg"
+    },
+    {
+      "name": "Accessory set",
+      "description": "Accessory set comes with beautiful wrist watch, a bracelet and a chain",
+      "price": "79.99",
+      "imageUrl": "images/women7.jpg"
+    },
+    {
+      "name": "Bracelet",
+      "description": "Gold color bracelet perfect for your hand to go with any outfit",
+      "price": "59.99",
+      "imageUrl": "images/women8.jpg"
+    },
+    {
+      "name": "Pink top",
+      "description": "Pink wool top that keeps you warm for winters",
+      "price": "39.99",
+      "imageUrl": "images/women9.jpg"
+    },
+    {
+      "name": "Smart watch",
+      "description": "Smart wrist watch for women to make your work easier.",
+      "price": "99.99",
+      "imageUrl": "images/women10.jpg"
+    }
+  ]
+})
