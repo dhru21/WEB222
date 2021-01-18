@@ -1,0 +1,96 @@
+/*
+Name: Dhruv Bipinbhai Patel
+Student#: 142572197
+Email: dbpatel31@myseneca.ca
+*/
+
+//Q1.
+function formatPath(options) {
+
+    options = options || {};
+    
+    const sep = options.isWindows ? "\\" : '/';
+    var dir = options.dir || '.';
+    var filename = options.filename || 'test';
+    var ext = options.ext.startsWith('.') ? options.ext : `.${options.ext}`;
+    return dir + sep + filename + ext;
+}
+
+var options = {
+    dir: 'home',
+    filename: 'test',
+    ext: 'js',
+    isWindows: true,
+};
+
+console.log(formatPath(options));
+
+
+//Q2.
+function Duration(value) {
+    options = options || {};
+    var value = options.value || 0;
+    var raw = false;
+    if (value) raw == true;
+    else raw == false;
+    this.seconds = function () {
+        if (raw) {
+            return (options.value % 60);
+        }
+        else return 0;
+    };
+    this.minutes = function () {
+        if (raw) {
+            return (options.value / 60);
+        }
+        else return 0;
+    };
+    this.hours = function () {
+        if (raw) {
+            return (options.value / 3600);
+        }
+        else return 0;
+    };
+}
+
+var options = {
+    value: 2,
+};
+
+var d = new Duration(0);
+console.log(d.seconds());
+
+//Q3a.
+function addColourPreference(user, colour) {
+    user = user || {};
+    user.colourPreference = colour;
+    return user;
+}
+
+let user = {
+    name: 'Yan',
+};
+
+user = console.log(addColourPreference(user, 'red'));
+
+//Q3b.
+function addColourPreference(user, colour) {
+    user = user || {};
+    user.colourPreference = colour;
+    return user;
+}
+
+function removeColourPreference(user) {
+    user = user || {};
+    delete user.colourPreference;
+    return user;
+}
+
+let user = {
+    name: 'Yan',
+};
+
+user = (addColourPreference(user, 'red'));
+user = console.log(removeColourPreference(user));
+
+
