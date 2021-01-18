@@ -1,0 +1,29 @@
+/*
+Name: Dhruv Bipinbhai Patel
+Student#: 142572197
+Email: dbpatel31@myseneca.ca
+*/
+
+h1 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif; /*Q2. Changes font of h1 elements*/
+  font-size: 50px; /*Q4. Changes font size for all h1 elements*/
+  color: navy; /*Q5. Changes colour of h1 elements*/
+}
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; /*Q2. Changes font of h2 elements*/
+  font-size: 35px; /*Q4. Changes font size for all h2 elements*/
+  color: purple; /*Q5. Changes colour of h1 elements*/
+}
+p {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; /*Q2. Changes font of p element*/
+  margin-bottom: 0.3em; /*Q4 Adds space between two paragraphs*/
+  text-indent: 5%; /*Adds indentation at the beginning of all p elements*/
+}
+pre {
+  font-family: "Courier New", Courier, monospace; /*Q2. Changes font of pre element*/
+  background-color: pink; /*Q3. Changes colour for all pre elements*/
+}
+body {
+  background-color: cornsilk; /*Q3. Changes colour of entire document*/
+  font-size: 22px; /*Q4. Changes font size for entire body*/
+}
