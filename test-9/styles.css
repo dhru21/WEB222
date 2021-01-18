@@ -1,0 +1,68 @@
+/**
+Name: Dhruv Bipinbhai Patel
+Student#: 142572197
+email: dbpatel31@myseneca.ca
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  padding: 1em;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+form {
+  margin: 3em;
+  padding: 1em;
+  border: 1.5px solid rgb(255, 255, 255);
+
+  max-width: 800px;
+  min-width: 400px;
+  min-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-gap: 10px;
+  align-items: center;
+}
+
+form label {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6em;
+  color: rgb(255, 255, 255);
+}
+
+input,
+textarea {
+  padding: 0.4em;
+  font-size: 0.85em;
+  border-color: rgb(255, 255, 255);
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  width: 170px;
+  background-color: rgb(179, 198, 214);
+}
+
+.button {
+  grid-column: 1 / 3;
+  text-align: end;
+}

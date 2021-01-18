@@ -1,0 +1,73 @@
+<!--
+Name: Dhruv Bipinbhai Patel
+Student#: 142572197
+email: dbpatel31@myseneca.ca
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>WEB222 - Password Reset</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+  <body>
+    <h1>Password reset form</h1>
+
+    <form action="/password-reset" method="post">
+      <label for="email">Email</label>
+      <input
+        id="email"
+        name="emailId"
+        autocomplete="email"
+        type="email"
+        autofocus
+        placeholder="Enter email"
+        tabindex="1"
+        required
+        pattern=".+@gmail.com"
+      />
+
+      <label for="currentPassword">Current Password</label>
+      <input
+        id="currentPassword"
+        name="currentPassword"
+        type="password"
+        tabindex="2"
+        placeholder="Enter current password"
+        required
+      />
+
+      <label for="newPassword">New Password</label>
+      <input
+        id="newPassword"
+        name="newPassword"
+        type="password"
+        minlength="8"
+        maxlength="128"
+        tabindex="3"
+        required
+        placeholder="Create new password"
+        pattern=".{8,}"
+        title="must be 8-128 characters"
+      />
+
+      <label for="confirmPassword">Confirm Password</label>
+      <input
+        id="confirmPassword"
+        name="confirmPassword"
+        type="password"
+        minlength="8"
+        maxlength="128"
+        tabindex="4"
+        placeholder="Confirm new password"
+        title="must be 8-128 characters"
+        required
+      />
+      <div class="button">
+        <input type="submit" name="submit" value="submit" tabindex="5" />
+        <input type="reset" name="reset" value="reset" tabindex="6" />
+      </div>
+    </form>
+  </body>
+</html>

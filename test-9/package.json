@@ -1,0 +1,12 @@
+{
+  "name": "forms",
+  "version": "1.0.1",
+  "scripts": {
+    "server": "live-server",
+    "start": "npm run server"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
